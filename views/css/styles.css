@@ -1,0 +1,159 @@
+
+/*------------------------------------------------------Home-----------------------------------------------------------------*/
+html body{
+    overflow-wrap: break-word;
+    margin-bottom:50px;
+    background-color: #F5F5F5;
+}
+
+#home {
+    background-image: url("../image/background.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 100%;
+
+}
+
+
+#title_website{
+    font-family: 'Prata', serif;
+}
+
+#introduction {
+    font-family: 'El Messiri', sans-serif;
+    background-color: rgba(255,250,240,0.6);
+}
+.formHome{
+    font-family: 'El Messiri', sans-serif;
+    background-color: rgba(255,250,240,0.6);
+
+}
+
+#notice{
+    background-color: rgba(255,250,240,0.6);
+    font-family: 'El Messiri', sans-serif;
+}
+
+/*------------------------------------------------------Header-----------------------------------------------------------------*/
+
+#nav_color{
+    background-color: rgba(0,0,0,0.5);
+}
+#logo-image{
+    width: 100px;
+    height: 100px;
+}
+#logo-title{
+    font-family: 'New Tegomin', serif
+}
+
+
+/*------------------------------------------------------Page ideas-----------------------------------------------------------------*/
+.page_website{
+    background-color: #F5F5F5;
+    position: relative;
+    right: 0;
+    left: 0;
+    height: 100%;
+    margin-bottom: 120px;
+}
+
+@media screen and (max-width: 667px){/* Iphone/Smartphone  */
+    .page_website{
+        margin-bottom: 100px;
+    }
+}
+
+
+@media screen and (max-width: 1024px){/* Ipad/Tablette */
+    .page_website{
+        margin-bottom: 200px;
+    }
+}
+
+nav a:hover
+{
+    font-style: italic;
+}
+.user_image{
+    width:90px;
+    height:90px;
+}
+
+#post_ideas{
+    background-color: #87bdd8
+}
+.filter{
+    background-color: #ADD8E6
+}
+.publication_idea{
+    background-color:#4682B4
+}
+
+.idea_outline{
+    font-family: 'Noto Serif SC', serif;
+}
+
+/*------------------------------------------------------- Page comments-------------------------------------------------------------------*/
+.post_comment{
+    background-color: #87bdd8
+}
+#title_pageComments{
+    font-family: 'Prata', serif;
+}
+
+/*------------------------------------------------------- Profil -------------------------------------------------------------------*/
+#image_profile{
+    width : 200px ;
+    height : 200px;
+}
+/*------------------------------------------------------Footer-----------------------------------------------------------------*/
+#footer{
+    position: fixed;
+    font-family: 'New Tegomin', serif;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 2em;
+}
+
+@media screen and (max-width: 667px){/* Iphone/Smartphone  */
+    #footer{
+        font-size: 1.3em;
+    }
+}
+
+/*-------------------------------------------------------Admin-Zone-------------------------------------------------------------*/
+.notification {
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+#admin_title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#admin_table{
+    display: flex;
+    justify-content: flex-start;
+}
+
+td, th{
+    text-align: center;
+    vertical-align: middle;
+    overflow-wrap: break-word;
+}
+
+td{
+    max-width: 500px;
+}
+
+th{
+    height: 30px;
+}
